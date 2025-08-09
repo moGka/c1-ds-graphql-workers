@@ -1,0 +1,10 @@
+name = "deepseek-graphql-workers"
+main = "src/index.ts"
+compatibility_date = "2024-06-01"
+
+[vars]
+# 在这里设置环境变量或在Cloudflare Dashboard中设置
+# DEEPSEEK_API_URL = "https://api.deepseek.com/v1"
+
+# 敏感信息应该在Cloudflare Dashboard中设置为Secrets
+# DEEPSEEK_API_KEY = "sk-acd1d3699e9d433e8d96d9d74c5a73de"

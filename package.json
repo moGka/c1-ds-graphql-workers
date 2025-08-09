@@ -1,0 +1,22 @@
+{
+  "name": "deepseek-graphql-workers",
+  "version": "1.0.0",
+  "description": "Cloudflare Workers项目，使用GraphQL访问DeepSeek API为聊天机器人提供接口",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler publish",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240603.0",
+    "@types/node": "^20.14.2",
+    "typescript": "^5.4.5",
+    "vitest": "^1.6.0",
+    "wrangler": "^3.60.3"
+  },
+  "dependencies": {
+    "graphql": "^16.8.1",
+    "graphql-yoga": "^5.3.1"
+  }
+}
